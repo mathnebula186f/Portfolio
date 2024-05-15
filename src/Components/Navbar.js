@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -72,9 +73,10 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-icons">
-        <InstagramIcon className="navbar-icon" />
+        <a href="https://www.instagram.com/yaaimgopalbansal/"><InstagramIcon className="navbar-icon"  /></a>
         <FacebookIcon className="navbar-icon" />
-        <LinkedInIcon className="navbar-icon" />
+        <a href="https://www.linkedin.com/in/mathnebula186f"><LinkedInIcon className="navbar-icon" /></a>
+        <a href="https://www.instagram.com/yaaimgopalbansal/"><GitHubIcon className="navbar-icon"  /></a>
       </div>
     </nav>
   );

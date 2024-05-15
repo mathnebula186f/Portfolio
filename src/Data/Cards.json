@@ -1,0 +1,43 @@
+[
+    {
+      "bgColor": "blue",
+      "title": "Proximity Messaging-App",
+      "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTw3HApB4bsvabXW3L14cV-LhFo0L71QmEESJN3vW9Ow&s",
+      "description": [
+        "MERN-based messaging web app",
+        "Private-Messaging",
+        "Group Chat",
+        "User Authentication",
+        "Video Calls"
+      ],
+      "github": "https://github.com/mathnebula186f/Messaging-App",
+      "deploy": "https://messaging-app-hiwy.vercel.app/",
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTw3HApB4bsvabXW3L14cV-LhFo0L71QmEESJN3vW9Ow&s", "https://miro.medium.com/v2/resize:fit:679/0*vq-JSMynSHUPXx70", "https://ik.imagekit.io/ably/ghost/prod/2021/03/socket-io-logo-1.jpeg?tr=w-1728,q-50","https://picperf.io/https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg"]
+    },
+    {
+      "bgColor": "blue1",
+      "title": "Task-Managment App",
+      "description": [
+        "CRUD Tasks",
+        "Mark Important/Completed",
+        "User Authentication"
+      ],
+      "github": "https://github.com/mathnebula186f/TaskManagment",
+      "deploy": "https://task-managment-wtpt.vercel.app/",
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTw3HApB4bsvabXW3L14cV-LhFo0L71QmEESJN3vW9Ow&s", "https://miro.medium.com/v2/resize:fit:679/0*vq-JSMynSHUPXx70","https://picperf.io/https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHqH23TDSFbOukJsb-Q5dksKRMLyuRwTEWZL9zlxqbcQ&s"]
+    },
+    {
+      "bgColor": "blue2",
+      "title": "ZappFix Mobile App",
+      "description": [
+        "Centralized platform connecting users with verified service providers for various needs.",
+        "AI-Based Recommendation System",
+        "Map-based Location tracking",
+        "Worker Authentication"
+      ],
+      "github": "https://github.com/TheProBro/CS305.Project.T08",
+      "deploy": "https://expo.dev/accounts/devanshu1212/projects/zappfix/builds/709a0c3f-afe9-45e8-a735-d6bd73b9a4f3",
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE55gmUnFP4Ky1B6QxUFdgswOvEB0v6ezvDdfMon6g6A&s", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png", "https://i.pinimg.com/736x/66/1e/98/661e98a8e38f681575da93d0a1c3f4fc.jpg","https://drive.google.com/thumbnail?id=1-1Rp_XVFozCp8Ydcz88s-7BvdBhBP9Us&sz=w1000"]
+    }
+  ]
+  
