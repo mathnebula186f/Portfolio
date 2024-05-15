@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar.js';
 import Profile from '../components/Profile';
 import cardData from '../Data/Cards.json';
 import Cards from '../components/Cards';
