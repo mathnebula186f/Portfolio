@@ -7,10 +7,10 @@ const Profile = () => {
       <div className=" flex-grow ">
         <h1 className="text-white text-2xl sm:text-5xl font-bold mb-4 ">Gopal Bansal</h1>
         <p className="text-white text-sm sm:text-lg font-light">
-          I'm a Web Developer, Programmer, and a Basketballer.
+          I'm a  Developer, Programmer, and a Basketballer.
         </p>
       </div>
-      <div className=" w-3/12 bg-white rounded-full overflow-hidden">
+      <div className="w-4/12 sm:w-3/12 bg-white rounded-full overflow-hidden">
         <img src={ProfilePhoto} alt="Profile" />
       </div>
     </div>

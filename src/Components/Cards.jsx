@@ -9,7 +9,7 @@ const Cards = ({ data }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8  p-5">
       {data.map((card, index) => (
-        <a key={index} className={`card-${card.bgColor} p-6 rounded-lg shadow-md border border-2 md:max-h-96 max-h-80`} href={card.deploy}>
+        <a key={index} className={`card-${card.bgColor} p-6 rounded-lg shadow-md border border-2 max-h-96 max-h-80`} href={card.deploy}>
           {/* <img src={card.logo} alt={`${card.title} Logo`} className="w-8 h-8" /> */}
           <h2 className="text-2xl font-bold text-white mb-4">{card.title}</h2>
           <hr/>

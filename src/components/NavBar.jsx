@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from "@mui/icons-material/GitHub";
+import { SiGeeksforgeeks } from "react-icons/si";
 import "./NavBar.css";
 
 const Navbar = () => {
@@ -18,8 +19,8 @@ const Navbar = () => {
   };
 
   //Images
-//   const alankarLogo =
-//     "https://drive.google.com/uc?export=view&id=1tF7lLYbLWT3BIKIoUuUr6hh6hb4TgCWK";
+  //   const alankarLogo =
+  //     "https://drive.google.com/uc?export=view&id=1tF7lLYbLWT3BIKIoUuUr6hh6hb4TgCWK";
 
   return (
     <nav className="navbar">
@@ -67,16 +68,25 @@ const Navbar = () => {
           <a href="/" className="navbar-link">
             Gallery
           </a>
-          <a href="/contact" className="navbar-link">
-            Contact Us
+          <a href="https://drive.google.com/file/d/15S3JxlfMF_94X1Me7jFWPWa-LHDu1yv7/view?usp=sharing" className="navbar-link">
+            Resume
           </a>
         </div>
       </div>
       <div className="navbar-icons">
-        <a href="https://www.instagram.com/yaaimgopalbansal/"><InstagramIcon className="navbar-icon"  /></a>
+        <a href="https://www.instagram.com/yaaimgopalbansal/">
+          <InstagramIcon className="navbar-icon" />
+        </a>
         <FacebookIcon className="navbar-icon" />
-        <a href="https://www.linkedin.com/in/mathnebula186f"><LinkedInIcon className="navbar-icon" /></a>
-        <a href="https://www.instagram.com/yaaimgopalbansal/"><GitHubIcon className="navbar-icon"  /></a>
+        <a href="https://www.linkedin.com/in/mathnebula186f">
+          <LinkedInIcon className="navbar-icon" />
+        </a>
+        <a href="https://github.com/mathnebula186f">
+          <GitHubIcon className="navbar-icon" />
+        </a>
+        <a href="https://www.geeksforgeeks.org/user/mathnebula186f/">
+        <SiGeeksforgeeks  className="navbar-icons" color="white" size={22}/>
+        </a>
       </div>
     </nav>
   );
