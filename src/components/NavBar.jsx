@@ -71,6 +71,9 @@ const Navbar = () => {
           <a href="https://drive.google.com/file/d/15S3JxlfMF_94X1Me7jFWPWa-LHDu1yv7/view?usp=sharing" className="navbar-link">
             Resume
           </a>
+          <a href="/contact" className="navbar-link">
+            Contact Me
+          </a>
         </div>
       </div>
       <div className="navbar-icons">
