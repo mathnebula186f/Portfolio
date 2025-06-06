@@ -1,29 +1,44 @@
-import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_oppj1wo', 'template_re4ulyb', form.current, 'Ev4pG9n6fluwvnObK')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-          alert("Sent")
-      }, (error) => {
+          alert("Sent");
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
 
     e.target.reset();
   };
 
   return (
     <div className="max-w-90">
-      <form ref={form} onSubmit={sendEmail} className="bg-black p-8 rounded-lg shadow-lg">
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="bg-black p-8 rounded-lg shadow-lg"
+      >
         <h2 className="text-2xl font-bold text-white mb-6">Contact Me</h2>
         <div className="mb-4">
-          <label className="block text-white text-sm font-bold mb-2" htmlFor="name">
+          <label
+            className="block text-white text-sm font-bold mb-2"
+            htmlFor="name"
+          >
             Name
           </label>
           <input
@@ -34,7 +49,10 @@ function Contact() {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-white text-sm font-bold mb-2" htmlFor="email">
+          <label
+            className="block text-white text-sm font-bold mb-2"
+            htmlFor="email"
+          >
             Email
           </label>
           <input
@@ -45,7 +63,10 @@ function Contact() {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-white text-sm font-bold mb-2" htmlFor="message">
+          <label
+            className="block text-white text-sm font-bold mb-2"
+            htmlFor="message"
+          >
             Message
           </label>
           <textarea
