@@ -34,7 +34,7 @@ const Navbar = () => {
           <a href="/" className="navbar-link">
             Home
           </a>
-          <div className="navbar-link" onClick={toggleClubMenu}>
+          <div className="navbar-link hidden" onClick={toggleClubMenu}>
             Clubs
             {isClubMenuOpen && (
               <div className="navbar-club-menu">
@@ -65,7 +65,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <a href="/" className="navbar-link">
+          <a href="/" className="navbar-link hidden">
             Gallery
           </a>
           <a href="https://drive.google.com/file/d/15S3JxlfMF_94X1Me7jFWPWa-LHDu1yv7/view?usp=sharing" className="navbar-link">
