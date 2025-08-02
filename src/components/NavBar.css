@@ -3,7 +3,7 @@
     /* border: 0.1px white solid; */
     border-radius: 100px;
     width: 90%;
-    z-index: 3;
+    z-index: 9999;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +80,7 @@
     background-color: white;
 }
 
-.navbar-club-menu {
+.navbar-projects-menu {
     position: absolute;
     top: 100%;
     /* left: 140px; */
@@ -100,11 +100,11 @@
     /* margin: auto; */
 }
 
-.navbar-club-menu.open {
+.navbar-projects-menu.open {
     transform: translateY(0);
 }
 
-.navbar-club-link {
+.navbar-project-link {
     display: flex;
     align-items: center;
     color: white;
@@ -114,18 +114,18 @@
     transition: color 0.3s ease-in-out;
 }
 
-.navbar-club-link img {
+.navbar-project-link img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.navbar-club-link span {
+.navbar-project-link span {
     margin-left: 5px;
 }
 
-.navbar-club-link:hover {
+.navbar-project-link:hover {
     color: #8ec33d;
 }
 

@@ -1,0 +1,89 @@
+{
+  "charvis": {
+    "id": "charvis",
+    "title": "Chart Data Extraction",
+    "author": "Gopal Bansal & Sahil Mangla",
+    "date": "2024-01-15",
+    "abstract": "This research explores the application of artificial intelligence in healthcare, focusing on medical diagnosis and patient care improvements.",
+    "content": [
+      {
+        "section": "Introduction",
+        "text": "Artificial Intelligence (AI) has emerged as a transformative technology in healthcare, offering unprecedented opportunities to improve medical diagnosis, treatment planning, and patient outcomes."
+      },
+      {
+        "section": "Methodology",
+        "text": "Our research employed machine learning algorithms including neural networks and deep learning models to analyze medical imaging data and patient records."
+      },
+      {
+        "section": "Results",
+        "text": "The AI models demonstrated 95% accuracy in diagnostic predictions, significantly outperforming traditional diagnostic methods in speed and precision."
+      },
+      {
+        "section": "Conclusion",
+        "text": "AI integration in healthcare shows immense potential for revolutionizing medical practice, though ethical considerations and regulatory frameworks need careful attention."
+      }
+    ],
+    "tags": ["AI", "Healthcare", "Machine Learning", "Medical Diagnosis"],
+    "images": [
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    ]
+  },
+  "quantum-computing": {
+    "id": "quantum-computing",
+    "title": "Quantum Computing: The Next Frontier in Computational Science",
+    "author": "Your Name",
+    "date": "2024-02-20",
+    "abstract": "An in-depth analysis of quantum computing principles, current limitations, and potential applications in various fields.",
+    "content": [
+      {
+        "section": "Introduction",
+        "text": "Quantum computing represents a paradigm shift in computational technology, leveraging quantum mechanical phenomena to process information in fundamentally new ways."
+      },
+      {
+        "section": "Quantum Principles",
+        "text": "The research examines key quantum principles including superposition, entanglement, and quantum interference that enable quantum computers to solve certain problems exponentially faster than classical computers."
+      },
+      {
+        "section": "Current Applications",
+        "text": "Current quantum computing applications include cryptography, optimization problems, and molecular simulation, with promising results in pharmaceutical research and financial modeling."
+      },
+      {
+        "section": "Future Prospects",
+        "text": "As quantum technology matures, we anticipate breakthrough applications in areas such as drug discovery, climate modeling, and artificial intelligence."
+      }
+    ],
+    "tags": ["Quantum Computing", "Physics", "Technology", "Cryptography"],
+    "images": [
+      "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    ]
+  },
+  "sustainable-energy": {
+    "id": "sustainable-energy",
+    "title": "Sustainable Energy Solutions: A Comprehensive Analysis",
+    "author": "Your Name",
+    "date": "2024-03-10",
+    "abstract": "This research examines various sustainable energy technologies and their potential to address global energy challenges while minimizing environmental impact.",
+    "content": [
+      {
+        "section": "Introduction",
+        "text": "The global transition to sustainable energy sources is critical for addressing climate change and ensuring long-term energy security."
+      },
+      {
+        "section": "Solar Energy",
+        "text": "Solar photovoltaic technology has achieved remarkable cost reductions and efficiency improvements, making it one of the most promising renewable energy sources."
+      },
+      {
+        "section": "Wind Power",
+        "text": "Wind energy continues to expand globally, with offshore wind farms offering significant potential for large-scale clean energy generation."
+      },
+      {
+        "section": "Energy Storage",
+        "text": "Advanced battery technologies and grid-scale storage solutions are essential for managing the intermittency of renewable energy sources."
+      }
+    ],
+    "tags": ["Renewable Energy", "Sustainability", "Solar Power", "Wind Energy"],
+    "images": [
+      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    ]
+  }
+}

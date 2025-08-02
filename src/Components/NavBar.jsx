@@ -8,19 +8,21 @@ import "./NavBar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const [isClubMenuOpen, setClubMenuOpen] = useState(false);
+  const [isProjectsMenuOpen, setProjectsMenuOpen] = useState(false);
+  const [isResearchMenuOpen, setResearchMenuOpen] = useState(false);
+
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
 
-  const toggleClubMenu = () => {
-    setClubMenuOpen(!isClubMenuOpen);
+  const toggleProjectsMenu = () => {
+    setProjectsMenuOpen(!isProjectsMenuOpen);
   };
 
-  //Images
-  //   const alankarLogo =
-  //     "https://drive.google.com/uc?export=view&id=1tF7lLYbLWT3BIKIoUuUr6hh6hb4TgCWK";
+  const toggleResearchMenu = () => {
+    setResearchMenuOpen(!isResearchMenuOpen);
+  };
 
   return (
     <nav className="navbar">
@@ -34,40 +36,37 @@ const Navbar = () => {
           <a href="/" className="navbar-link">
             Home
           </a>
-          <div className="navbar-link hidden" onClick={toggleClubMenu}>
-            Clubs
-            {isClubMenuOpen && (
-              <div className="navbar-club-menu">
-                <a href="/club/alankar" className="navbar-club-link">
+          <div className="navbar-link hidden" onClick={toggleProjectsMenu}>
+            Projects
+            {isProjectsMenuOpen && (
+              <div className="navbar-projects-menu">
+                <a href="/projects/proximity" className="navbar-project-link">
                   {/* <img src={alankarLogo} alt="Alankar Club" /> */}
-                  <span>Alankar Club</span>
+                  <span>Proximity</span>
                 </a>
-                <a href="/club/epicure" className="navbar-club-link">
+                <a href="/projects/task-managment" className="navbar-project-link">
                   {/* <img src={epicureLogo} alt="Epicure Club" /> */}
-                  <span>Epicure Club</span>
-                </a>
-                <a href="/club/fine-arts" className="navbar-club-link">
-                  {/* <img src={fineArtsLogo} alt="FineArts Club" /> */}
-                  <span>FineArts Club</span>
-                </a>
-                <a href="/club/undekha" className="navbar-club-link">
-                  {/* <img src={undekhaLogo} alt="Undekha Club" /> */}
-                  <span>Undekha Club</span>
-                </a>
-                <a href="/club/arturo" className="navbar-club-link">
-                  {/* <img src={arturoLogo} alt="Arturo Club" /> */}
-                  <span>Arturo Club</span>
-                </a>
-                <a href="/club/dance" className="navbar-club-link">
-                  {/* <img src={danceLogo} alt="Dance Club" /> */}
-                  <span>Dance Club</span>
+                  <span>Task Managment</span>
                 </a>
               </div>
             )}
           </div>
-          <a href="/" className="navbar-link hidden">
-            Gallery
-          </a>
+          <div className="navbar-link cursor-pointer" onClick={toggleResearchMenu}>
+            Research
+            {isResearchMenuOpen && (
+              <div className="navbar-projects-menu">
+                <a href="/research/charvis" className="navbar-project-link">
+                  {/* <img src={alankarLogo} alt="Alankar Club" /> */}
+                  <span>CharVis</span>
+                </a>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <a href="#" className="navbar-project-link">
+                  {/* <img src={epicureLogo} alt="Epicure Club" /> */}
+                  <span>Coming Soon ..</span>
+                </a>
+              </div>
+            )}
+          </div>
           <a href="https://drive.google.com/file/d/15S3JxlfMF_94X1Me7jFWPWa-LHDu1yv7/view?usp=sharing" className="navbar-link">
             Resume
           </a>

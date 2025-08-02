@@ -3,10 +3,12 @@ import NavBar from "../components/NavBar.jsx";
 import Profile from "../components/Profile";
 import cardData from "../Data/Cards.json";
 import Cards from "../components/Cards";
+import VisitorTracker from "../components/VisitorTracker";
 
 const AppNav = () => {
   return (
     <div className="text-center p-8 bg-black  flex flex-col">
+      <VisitorTracker />
       <div className="">
         <NavBar />
       </div>
